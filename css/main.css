@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 100vh;
+}
+
+body#main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-image {
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: opacity(50%);
+}
+
+main#speech-generator p {
+    width: 80vw;
+    padding: 25px 30px;
+    background-color: #EBEBEB;
+    filter: opacity(70%);
+    line-height: 1.5rem;
+    letter-spacing: .05rem;
+    word-spacing: .1rem;
+    margin: 40px 0;
+    border-radius: 1rem;
+}
+
+main#speech-generator h1 {
+    color: white;
+}
+
+main#speech-generator button {
+    font-size: 15px;
+    padding: 12.5px 20px;
+    border-radius: 1rem;
+    border: 0;
+    background-color: #EA2027;
+    letter-spacing: .05rem;
+}
+main#speech-generator button:hover {
+    filter: brightness(90%);
+}
+main#speech-generator button:active {
+    filter: brightness(82.5%);
+}
