@@ -6,24 +6,23 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    height: 100vh;
 }
 
 body#main-body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#background-image {
     width: 100vw;
     height: 100vh;
-    z-index: -99;
-    position: absolute;
-    top: 0;
-    left: 0;
-    filter: opacity(50%);
+    overflow-x: hidden;
+    background: url("../assets/trump.jpg") center center no-repeat fixed;
+}
+
+main#speech-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main#speech-generator p {
@@ -55,4 +54,13 @@ main#speech-generator button:hover {
 }
 main#speech-generator button:active {
     filter: brightness(82.5%);
+}
+
+#credits {
+    font-size: 13px;
+    color: rgb(173, 173, 173);
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    padding: 4px;
 }
