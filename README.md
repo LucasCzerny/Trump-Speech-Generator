@@ -2,10 +2,12 @@
 
 This is a practice project I made that generates speeches in the style of Trump.
 
-v1.0:
+v1.0.0:
 - Basic functionality
 
-## Upcoming features (maybe sometime in the future ...)
+v1.0.1:
+- Added mobile support
+
+## Upcoming features (maybe lol)
 - Using Web Workers
-- Mobile support (pls only view this website on desktop - unless you want eye cancer, of course)
-- Better & more efficient neural network lol
+- Better & more efficient neural network

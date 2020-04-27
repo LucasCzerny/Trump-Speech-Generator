@@ -39,6 +39,7 @@ main#speech-generator p {
 
 main#speech-generator h1 {
     color: white;
+    text-align: center;
 }
 
 main#speech-generator button {
@@ -63,4 +64,26 @@ main#speech-generator button:active {
     bottom: 0;
     right: 0;
     padding: 4px;
+}
+
+@media only screen and (max-width: 1200px), screen and (max-height: 800px) {
+    body#main-body {
+        align-items: flex-start;
+        background: url("../assets/trump.jpg") 30% center no-repeat fixed
+    }
+    #speech-generator {
+        padding: 75px 0;
+    }
+    #credits {
+        top: 0;
+        left: 0;
+        bottom: auto;
+        right: auto;
+    }
+}
+
+@media only screen and (min-height: 1081px) {
+    body#main-body {
+        background: url("../assets/trump2.jpg") center center no-repeat fixed;
+    }
 }
