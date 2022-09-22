@@ -25,7 +25,7 @@ function generateSpeech() {
     var text = [];
 
     var generate = function(i) {
-        var prediction = model.predict(
+        var prediction = window.model.predict(
             tf.tensor2d(input, [1, SEQUENCE_LENGTH])
         ).dataSync();
 
