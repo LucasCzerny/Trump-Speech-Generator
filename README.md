@@ -1,3 +1,3 @@
 # Trump Speech Generator
 
-Host by using: `python -m SimpleHTTPServer`
+Usage: `python -m SimpleHTTPServer`
